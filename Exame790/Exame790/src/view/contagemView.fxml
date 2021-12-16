@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="204.0" prefWidth="408.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ContagemController">
+   <children>
+      <TextField fx:id="txPalavras" editable="false" layoutX="130.0" layoutY="95.0" />
+      <Button fx:id="btnFechar" layoutX="179.0" layoutY="145.0" mnemonicParsing="false" onAction="#fechar" text="Fechar" />
+      <Label layoutX="103.0" layoutY="14.0" text="CONTAGEM" textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="130.0" layoutY="78.0" text="A frase contém:" />
+   </children>
+</AnchorPane>
